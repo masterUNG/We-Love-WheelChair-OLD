@@ -13,6 +13,7 @@ public class wheelchari_main extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_wheelchari_main);
 
+
         final ImageView  imageView8 , imageView9 ,imageView10 ;
         imageView8 =  (ImageView) findViewById(R.id.imageView8);
         imageView9 =  (ImageView) findViewById(R.id.imageView9);
