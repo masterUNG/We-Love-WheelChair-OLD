@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.boonim.welovewheelchair.car_1_main">
+
+    <ImageView
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView15"
+        android:src="@drawable/car_ban"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout3"
+        android:weightSum="1"
+        android:layout_alignTop="@+id/linearLayout4"
+        android:layout_toLeftOf="@+id/linearLayout4"
+        android:layout_toStartOf="@+id/linearLayout4"
+        android:layout_marginRight="36dp"
+        android:layout_marginEnd="36dp">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/imageView16"
+            android:src="@drawable/aplane" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="เครื่องบิน"
+            android:id="@+id/textView13"
+            android:textSize="18dp"
+            android:layout_gravity="center_horizontal" />
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/imageView17"
+            android:nestedScrollingEnabled="false"
+            android:src="@drawable/aplane" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MRT"
+            android:id="@+id/textView17"
+            android:textSize="18dp"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout4"
+        android:weightSum="1"
+        android:layout_below="@+id/imageView15"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="48dp"
+        android:layout_marginEnd="48dp">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/imageView18"
+            android:src="@drawable/aplane" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="รถแท็กซี่"
+            android:id="@+id/textView15"
+            android:textSize="18dp"
+            android:layout_gravity="center_horizontal" />
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/imageView19"
+            android:nestedScrollingEnabled="false"
+            android:src="@drawable/common_google_signin_btn_icon_dark_pressed" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BTS"
+            android:id="@+id/textView16"
+            android:layout_gravity="center_horizontal"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:text="            สิทธิพิเศษ"
+        android:id="@+id/button2"
+        android:textSize="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#f7f7f7" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView20"
+        android:src="@drawable/vip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/linearLayout3"
+        android:layout_alignStart="@+id/linearLayout3"
+        android:layout_gravity="bottom"
+        android:layout_alignTop="@+id/button2"
+        android:layout_alignRight="@+id/linearLayout3"
+        android:layout_alignEnd="@+id/linearLayout3" />
+
+</RelativeLayout>
